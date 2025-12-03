@@ -1,0 +1,16 @@
+<nav role="navigation">
+	<div class="nav-inner">
+    <ul>
+    {% assign sorted_pages = site.pages | sort: "order" %}
+        {% for p in sorted_pages %}
+            {% if p.path contains '.md' and p.role == "nav" %}
+                <li>
+                    <a href="{{ site.baseurl }}{{ p.url }}" class="{% if p.url == current_url %}current{% endif %}">
+                        {{ p.title }}
+                    </a>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+	</div>
+</nav>

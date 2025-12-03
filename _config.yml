@@ -1,0 +1,20 @@
+port: 4004
+email: paradia@algonquincollege.com
+url: "https://alainparadis.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/program-promotion" # the subpath of your site, e.g. /blog
+github_username:  "alainparadis"
+repository: alainparadis/program-promotion
+plugins:
+  - jekyll-feed
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

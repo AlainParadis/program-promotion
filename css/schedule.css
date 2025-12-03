@@ -1,0 +1,43 @@
+body
+{
+	font-family: Arial, sans-serif;
+	margin: 20px;
+}
+
+.table-container
+{
+	display: grid;
+	grid-template-columns: auto repeat({{ room_count }}, 1fr);
+	grid-template-rows: auto repeat({{ time_count }}, auto);
+	gap: 1px;
+	background-color: #ccc;
+	border: solid 1px #e0e0e0;
+	max-width: 95%;
+	overflow-x: auto;
+}
+
+.table-header, .table-cell, .time-label
+{
+	background-color: #fff;
+	padding: 10px;
+	text-align: center;
+	min-width: 100px;
+}
+
+.time-label
+{
+	background-color: #f0f0f0;
+	font-weight: bold;
+}
+
+.table-header { background-color: #e0e0e0; }
+
+.class-block
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	color: #003366;
+	border: 1px solid #99c;
+}

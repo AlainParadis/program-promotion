@@ -1,0 +1,123 @@
+semesters:
+  - title: Semester 1
+    courses:
+      - title: "Foundations of Human-Centred Design"
+        description: >
+          Explore empathy, problem framing, and the psychology of user experience.
+      - title: "Design Thinking for Innovation"
+        description: >
+          Focus on iterative ideation, prototyping, critique, and creative bravery. Original thinking and process are prioritised.
+      - title: "Introduction to Digital Design Tools"
+        description: >
+          Hands-on with Adobe Photoshop, Illustrator, and InDesign fundamentals, with project-based assignments.
+      - title: "Brand Storytelling & Visual Strategy"
+        description: >
+          Develop skills in narrative formation and identity. Explores narrative content, brand boards, creative direction.
+      - title: "Colour Systems & Psychology"
+        description: >
+          Develop understanding of perception, mood, and cultural impact of colour. Rendering choices support conceptual direction.
+      - title: "Creative Collaboration & Critique"
+        description: >
+          Build collaboration skills, effective critique methods, and communication strategies. Team-based collaboration exercises for peer feedback and iterative improvement.
+
+  - title: Semester 2
+    courses:
+      - title: "Digital Design Tools 2"
+        description: >
+          Hands-on with Adobe Photoshop, Illustrator, and InDesign, with project-based assignments. Applies Adobe generative tools, Figma plugins, and automation for asset creation.
+      - title: "Strategic Concept Development"
+        description: >
+          Develop pitch skills, creative rationale, and portfolio direction. Visualisation tools support evolving strong ideas. Builds rationale for creative work, pitch training, and process mapping.
+      - title: "Web Foundations: HTML & CSS"
+        description: >
+          Teaches HTML structure, CSS styling, accessibility, and responsive design by building live projects. Create accessible, meaningful digital experiences. Production skills reinforce higher-level concept development.
+      - title: "Iterative Prototyping Studio"
+        description: >
+          Rapidly prototype and iterate creative concepts. Technology is applied to realise strategic intent.
+      - title: "Communication for Designers"
+        description: >
+          Craft convincing storytelling and visual rhetoric for diverse audiences. Messaging is developed strategically using supporting tools.
+      - title: "General Education Elective"
+        description: >
+          Complete one elective from approved topics for breadth.
+
+  - title: Semester 3
+    courses:
+      - title: "Motion & Interaction Design"
+        description: >
+          Animation basics with Adobe After Effects and Figma interactive elements. Explore principles of animation and interactive communication. Focus remains on audience impact and creative vision.
+      - title: "Design Across Media Platforms"
+        description: >
+          Work with varied media, including print, digital, immersive AR/VR, guided by conceptual strength and appropriate approach.
+      - title: "Business of Creative Innovation"
+        description: >
+          Students acquire the latest relevant and specialized knowledge about finance, intellectual property, ethics, employment and more. Students explore steps towards gainful employment or starting their own graphic design firm.
+      - title: "Design Hackathon: Real World Problems"
+        description: >
+          Tackle relevant challenges through ideation, teamwork, and rapid refinement.
+      - title: "UX/UI Methods with Figma & Web"
+        description: >
+          Deepen user-centred processes, interface critique, and wireframing in Figma and HTML/CSS. Tech facilitates thoughtful experiences.
+      - title: "General Education Elective"
+        description: >
+          Complete one elective from approved topics for breadth.
+
+  - title: Semester 4
+    courses:
+      - title: "Design Systems & Brand Identity"
+        description: >
+          Develop cohesive, adaptable visual identities. The focus is on systems thinking and conceptual consistency.
+      - title: "Advanced Image & Data Workflows"
+        description: >
+          Move beyond basic edits. Build skills in data-driven insight, visualisation, and narrative impact.
+      - title: "Multichannel Content Strategy"
+        description: >
+          Content marketing, analytics, campaign design. Create reasoned communication and campaigns across platforms. Adapt and scale concepts for audience needs.
+      - title: "Emerging Trends in Design Practice"
+        description: >
+          Forecast and react to shifting trends. Studies future tech, generative design, and collaborative prototypes. Explore new tools as context for conceptual innovation.
+      - title: "Portfolio Creation & Professional Practice 1"
+        description: >
+          Develop a portfolio focused on process, originality, and effective showcasing. Technique supports the vision.
+      - title: "General Education Elective"
+        description: >
+          Complete one elective from approved topics for breadth.
+
+  - title: Semester 5
+    courses:
+      - title: "Generative Art & Experimental Techniques"
+        description: >
+          Take creative risks and develop personal style through experimentation. Technology supports conceptual exploration.
+      - title: "Team Leadership & Creative Project Management"
+        description: >
+          Build skills in vision setting, influence, and team synthesis. Workflow tools are used as needed.
+      - title: "Systems Thinking for Designers"
+        description: >
+          Approach problems holistically, integrating product, user, and social context. Integrates product, user, and environmental context.
+      - title: "Interactive Capstone Studio"
+        description: >
+          Address multidisciplinary challenges, drawing on appropriate tech to support project aims.
+      - title: "Portfolio Creation & Professional Practice 2"
+        description: >
+          Refine work samples and professional presentation for industry.
+      - title: "General Education Elective"
+        description: >
+          Complete one elective from approved topics for breadth.
+
+  - title: Semester 6
+    courses:
+      - title: "Industry Immersion: Collaborative Studio"
+        description: >
+          Gain field experience with real clients and mentors. Conceptual development guides professional outcomes.
+      - title: "Personal Branding & Career Launch"
+        description: >
+          Develop your digital presence and personal brand. Strategic self-presentation is the foundation.
+      - title: "Innovative Problem-Solving for Design"
+        description: >
+          Tackle advanced creative challenges with critical thinking. Outcomes reflect conceptual agility.
+      - title: "Special Topics in Responsible Design"
+        description: >
+          Study sustainability, inclusive design, and ethics. Technology serves as a vehicle for responsible design.
+      - title: "Portfolio & Showcase Capstone"
+        description: >
+          Prepare and present original work at the graduation event. Creative vision and process are foregrounded.

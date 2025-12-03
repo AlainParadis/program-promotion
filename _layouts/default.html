@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %} 
+<body>
+<ul class="skip-link">
+	<li><a href="#main-content" class="skip-link">Skip to main content</a> </li>
+</ul>
+<div id="container">
+	{% include nav.html %} 
+	<header>
+		<h3>
+			<a href="{{ site.baseurl }}/" class="nodecoration">{{ site.data.sitewide.identification.program-name }}</a> 
+		</h3>
+		<h2>
+			<a href="{{ site.baseurl }}/" class="nodecoration">{{ site.data.sitewide.identification.site-title }}</a> 
+		</h2>
+	</header>
+	<main id="main-content">
+		<h2>
+			{{ page.title }} 
+		</h2>
+		
+		{{ content }} 
+	</main>
+	<aside>
+		{% include aside.html %} 
+	</aside>
+</div>
+<div class="footer-wrapper">
+	<footer>
+		<div class="footer-inner">
+			{% include footer.html %} 
+		</div>
+	</footer>
+</body>
+</html>
