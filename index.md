@@ -5,7 +5,7 @@ title: Home
 order: 0
 --- 
 <p>
-	This site contains notes on planning potential program changes and documenting program promotion ideas for the Graphic Design program at Algonquin College. It aims to address falling registration numbers in the short term. In the long term, it proposes structural changes to the Program of Study to ensure its continued viability. It also speaks to concerns related to automation and artificial intelligence in the creative design sector. 
+	This site contains notes on planning program promotion ideas for the Graphic Design program at Algonquin College. It aims to address falling registration numbers in the short term. It also speaks to concerns related to automation and artificial intelligence in the creative design sector. 
 </p>
 <blockquote>
 	“The future of design is human-led, AI-enhanced.” 

@@ -1,6 +1,6 @@
 identification:
   program-name: Graphic Design Program
-  site-title: Promotion & Transformation
+  site-title: Program Promotion
   my-name: Alain Paradis
   my-job-title: Coordinator, Professor
   credentials: M.A., R.G.D.
@@ -140,20 +140,10 @@ schools:
       url: "https://merivalehs.ocdsb.ca"
 
 links:
-  - title: "Ontario Job Bank NOC 52120"
-    url: "https://www.services.labour.gov.on.ca/labourmarket-ui/jobProfile?nocCode=52120"
-  - title: "NOC Code 52120"
-    url: "https://noc.esdc.gc.ca/OaSIS/OaSISOccProfile?code=52120.01&version=2023.0"
   - title: "OCDSB Arts Programs"
     url: "https://www.ocdsb.ca/programs-learning/secondary/programs/arts"
   - title: "Specialist High Skills Major (SHSM)"
     url: "https://www.ontario.ca/document/specialist-high-skills-major-policy-and-implementation-guide/arts-and-culture"
-  - title: "School-College-Work Initiative (SCWI)"
-    url: "https://www.ontario.ca/page/dual-credit-programs"
-  - title: "Ontario Dual Credit Programs"
-    url: "https://www.ontario.ca/page/dual-credit-programs"
-  - title: "Ontario Micro-Credentials"
-    url: "https://www.ontario.ca/page/micro-credentials-ontarios-postsecondary-schools"
   - title: "OSAP"
     url: "https://www.ontario.ca/page/osap-ontario-student-assistance-program"
   - title: "Algonquin Micro-Credentials"
@@ -164,10 +154,6 @@ links:
     url: "https://www.ontario.ca/page/college-program-standard-graphic-design"
   - title: "Ontario Colleges: All Graphic Design Programs"
     url: "https://www.ontariocolleges.ca/en/programs?q=Graphic%20Design&page=0"
-  - title: "Algonquin College Program Development"
-    url: "https://www.algonquincollege.com/academic-development/"
-  - title: "FaceBook UOttawa search results"
-    url: "https://www.facebook.com/search/pages/?q=uottawa%20arts&sde=AbrggujvjMyXR74p7wCRmi0L_zu0jmOyUZzf8HGUjsoFR3AgjBZh7C6nMHBmYpwZR4RMZiAkOHyu6RQidk6huyHE"
   - title: "AI in Graphic Design"
     url: "https://www.bluehost.com/en-ca/blog/ai-in-graphic-design/"
 
