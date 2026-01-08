@@ -16,8 +16,13 @@ layout: default
 			{% endif %}
 		</p>
 	</header>
-
 	<div class="post-content">
+        {% if page.exerpt %}
+            <span class="post-exerpt">
+                {{ page.exerpt }}
+            </span>
+        {% endif %}
+
 		{{ content }}
 	</div>
 </article>
