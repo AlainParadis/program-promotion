@@ -93,7 +93,7 @@ schools:
   - name: "Colonel By Secondary School"
     contact:
       name: "Scott Virgo"
-      title:
+      title: "Teacher, Technology"
       address: "2381 Ogilvie Road"
       email: "scott.virgo@ocdsb.ca"
       phone: "+1 613-745-9411"
@@ -109,7 +109,7 @@ schools:
   - name: "Sir Wilfrid Laurier Secondary School"
     contact:
       name: "Alex Budgell"
-      title:
+      title: "Department Head"
       address: "1515 Tenth Line Road"
       email: "alexander.budgell@ocdsb.ca"
       phone: "+1 613-834-4500"
