@@ -16,7 +16,6 @@ order: 0
 <p>
 	There are a number of highschools that offer a Specialist High Skills Major in Arts and Culture (<a href="https://www.ontario.ca/document/specialist-high-skills-major-policy-and-implementation-guide/arts-and-culture" target="_target">SHSM, Arts and Culture</a>). 
 </p>
-<a href="outreach-planning.html" class="btn">Outreach Planning</a> 
 <h4>
 	<a name="messaging">Messaging</a> 
 </h4>
@@ -24,12 +23,10 @@ order: 0
 	These are benefits for high school students to attend the Graphic Design program at Algonquin College. These make up the key messaging that needs to be shared broadly. 
 </p>
 <ul>
-  {% for message in site.data.sitewide.messaging %}
-    <li>{{ message }}</li>
-  {% endfor %}
+	{% for message in site.data.sitewide.messaging %} 
+	<li>{{ message }}</li>
+	{% endfor %} 
 </ul>
-
-<a href="schools.html" class="btn-small">Local Arts High Schools&nbsp;➜</a> 
 <h4>
 	<a name="channels">Channels </a> 
 </h4>
@@ -56,9 +53,9 @@ order: 0
 <blockquote>
 	With the increasing integration of A.I. in creative processes, designers will need to elevate their role. We're no longer editors. We're directors. 
 </blockquote>
-{% include uvp.html %}
+{% include uvp.html %} 
 <p>
-    Read more <a href="background.html">background information</a> rationalizing the current state of the program.
+	Read more <a href="background.html">background information</a> rationalizing the current state of the program. 
 </p>
 <h4>
 	Key Messaging 
@@ -69,30 +66,17 @@ order: 0
 <blockquote>
 	“Find tools, community, and real-world experience with Algonquin’s Graphic Design program—where creativity meets employability.” 
 </blockquote>
-
-The listed benefits contain the messaging that needs to be communicated in the specified channels.
-
+The listed benefits contain the messaging that needs to be communicated in the specified channels. 
 <ul>
-  {% for message in site.data.sitewide.messaging %}
-    <li>{{ message }}</li>
-  {% endfor %}
+	{% for message in site.data.sitewide.messaging %} 
+	<li>{{ message }}</li>
+	{% endfor %} 
 </ul>
-
-There's also material that can be used to promote the program such as <em>applicant portfolio pieces</em>, <em>student assignment samples</em>, and <em>alumni industry work</em>. 
-<h4>
-	Lead Capturing and Tracking 
-</h4>
 <p>
-	During school visits, we'll collect key contact information from prospective applicants so we can follow up with them. 
-</p>
-<p>
-	It would be great to deploy an email campaign with tailored information for each applicant, including key calls to action. We'll need to emphasise prompt follow-up, such as thanking students for participating, reminding them to complete next steps at suitable times, and answering questions quickly. 
-</p>
-<p>
-    We can use existing tools included in Microsoft Office to track and share data with college stakeholders. MS Forms can capture lead contact information, saving data to Excel. Outlook can send tailored mail-merged messages. We're open to working with admissions to track leads.
+	There's also material that can be used to promote the program such as <em>applicant portfolio pieces</em>, <em>student assignment samples</em>, and <em>alumni industry work</em>. 
 </p>
 <h4>
-    Letter To High School Arts Department Heads
+	Letter To High School Arts Department Heads 
 </h4>
 <p>
 	This is an email message to request a meeting with Arts Department leads at local high schools. 
