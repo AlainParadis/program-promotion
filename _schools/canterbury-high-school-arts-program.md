@@ -1,6 +1,6 @@
 ---
 layout: school
-title: "Canterbury High School Arts Program"
+title: "Canterbury High School"
 status: "not-contacted"
 contact:
   name: "John Unsworth"
