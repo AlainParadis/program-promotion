@@ -35,8 +35,8 @@ order: 1
 
 				{% if school.contact.email or school.contact.phone %}
 				<div class="quick-contact">
-					{% if school.contact.email %}<a href="mailto:{{ school.contact.email }}">{{ school.contact.email }}</a>{% endif %}
-					{% if school.contact.phone %}<span class="divider">•</span> <a href="tel:{{ school.contact.phone }}">{{ school.contact.phone }}</a>{% endif %}
+					{% if school.contact.email %}<div class="contact-line"><a href="mailto:{{ school.contact.email }}">{{ school.contact.email }}</a></div>{% endif %}
+					{% if school.contact.phone %}<div class="contact-line"><a href="tel:{{ school.contact.phone }}">{{ school.contact.phone }}</a></div>{% endif %}
 				</div>
 				{% endif %}
 
@@ -88,6 +88,8 @@ order: 1
 		overflow: hidden;
 		background: white;
 		transition: box-shadow 0.2s ease;
+		display: flex;
+		flex-direction: column;
 	}
 
 	.school-card:hover {
@@ -143,6 +145,7 @@ order: 1
 
 	.school-card-body {
 		padding: 1.5rem;
+		flex: 1;
 	}
 
 	.contact-info {
@@ -164,6 +167,13 @@ order: 1
 	.quick-contact {
 		margin-bottom: 0.75rem;
 		font-size: 0.9rem;
+		display: flex;
+		flex-direction: column;
+		gap: 0.35rem;
+	}
+
+	.contact-line {
+		display: block;
 	}
 
 	.quick-contact a {
@@ -173,11 +183,6 @@ order: 1
 
 	.quick-contact a:hover {
 		text-decoration: underline;
-	}
-
-	.quick-contact .divider {
-		margin: 0 0.5rem;
-		color: #ccc;
 	}
 
 	.last-contact {
