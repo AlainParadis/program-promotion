@@ -108,12 +108,3 @@ I would like to propose a meeting. The agenda would be to discuss a possible cla
 
 Please let me know your availability. We can hold this initial meeting virtually, if that's easier for you. I will do my best to fit your schedule. I look forward to meeting and working together to help students consider graphic design as an exciting next step.
 </pre>
-<h4>
-	Useful Links 
-</h4>
-{% assign sorted-links = site.data.sitewide.links | sort: "title" %} 
-<ul class="linkslist">
-	{% for linkitem in sorted-links %} 
-	<li><a href="{{linkitem.url}}" target="_blank">{{ linkitem.title }}</a></li>
-	{% endfor %} 
-</ul>
