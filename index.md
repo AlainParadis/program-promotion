@@ -109,42 +109,6 @@ I would like to propose a meeting. The agenda would be to discuss a possible cla
 Please let me know your availability. We can hold this initial meeting virtually, if that's easier for you. I will do my best to fit your schedule. I look forward to meeting and working together to help students consider graphic design as an exciting next step.
 </pre>
 <h4>
-	Outreach Activities 
-</h4>
-<p>
-	These are ideas for potential outreach activities in local high schools. 
-</p>
-<ol>
-	<li>“Design in Action” High School Workshop Series</li>
-	<ul>
-		<li>Bring a hands-on, 1-hour design challenge into art or media classes. Students get a taste of real design thinking. We get to showcase the program’s energy and relevance.</li>
-		<li>We could leave behind Algonquin branded merch, like a sketch book.</li>
-	</ul>
-	<li>Design Futures Career Fair Booth</li>
-	<ul>
-		<li>Set up a visually striking booth at local and regional high school career fairs.</li>
-		<li>Feature student work, interactive demos, and a “Design Your Future” handout that connects creativity to real careers.</li>
-	</ul>
-	<li>Teacher Partnership Program</li>
-	<ul>
-		<li>Build relationships with art/media teachers by offering:</li>
-		<ul>
-			<li>Guest lectures or virtual talks from faculty or alumni</li>
-			<li>Free classroom resources (e.g., design challenge kits)</li>
-			<li>Invitations to student showcases or portfolio nights </li>
-		</ul>
-	</ul>
-	<li>“Design Day @ Algonquin”</li>
-	<ul>
-		<li>Host an annual on-campus event for high school students. Include:</li>
-		<ul>
-			<li>Mini workshops</li>
-			<li>Portfolio reviews</li>
-			<li>Swag and snacks to make it memorable</li>
-		</ul>
-	</ul>
-</ol>
-<h4>
 	Useful Links 
 </h4>
 {% assign sorted-links = site.data.sitewide.links | sort: "title" %} 
