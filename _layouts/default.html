@@ -6,15 +6,9 @@
 	<li><a href="#main-content" class="skip-link">Skip to main content</a> </li>
 </ul>
 <div id="container">
-	{% include nav.html %} 
-	<header>
-		<h3>
-			<a href="{{ site.baseurl }}/" class="nodecoration">{{ site.data.sitewide.identification.program-name }}</a> 
-		</h3>
-		<h2>
-			<a href="{{ site.baseurl }}/" class="nodecoration">{{ site.data.sitewide.identification.site-title }}</a> 
-		</h2>
-	</header>
+	<aside class="sidebar">
+		{% include nav.html %} 
+	</aside>
 	<main id="main-content">
 		<h2>
 			{{ page.title }} 
@@ -22,15 +16,6 @@
 		
 		{{ content }} 
 	</main>
-	<aside>
-		{% include aside.html %} 
-	</aside>
 </div>
-<div class="footer-wrapper">
-	<footer>
-		<div class="footer-inner">
-			{% include footer.html %} 
-		</div>
-	</footer>
 </body>
 </html>

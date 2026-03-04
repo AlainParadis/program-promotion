@@ -1,16 +1,28 @@
 <nav role="navigation">
 	<div class="nav-inner">
-    <ul>
-    {% assign sorted_pages = site.pages | sort: "order" %}
-        {% for p in sorted_pages %}
-            {% if p.path contains '.md' and p.role == "nav" %}
-                <li>
-                    <a href="{{ site.baseurl }}{{ p.url }}" class="{% if p.url == current_url %}current{% endif %}">
-                        {{ p.title }}
-                    </a>
-                </li>
-            {% endif %}
-        {% endfor %}
-    </ul>
+		<div class="nav-header">
+			<h3 style="margin: 0 0 0.25rem 0; font-size: 0.95rem; color: var(--lightest); font-weight: 600;">
+				<a href="{{ site.baseurl }}/" class="nodecoration" style="color: inherit; border: none;">
+					{{ site.data.sitewide.identification.program-name }}
+				</a>
+			</h3>
+			<h2 style="margin: 0 0 1.5rem 0; font-size: 1.1rem; line-height: 1.3; font-weight: 700; color: var(--lightest);">
+				<a href="{{ site.baseurl }}/" class="nodecoration" style="color: inherit; border: none;">
+					{{ site.data.sitewide.identification.site-title }}
+				</a>
+			</h2>
+		</div>
+		<ul>
+			{% assign sorted_pages = site.pages | sort: "order" %}
+			{% for p in sorted_pages %}
+				{% if p.path contains '.md' and p.role == "nav" %}
+					<li>
+						<a href="{{ site.baseurl }}{{ p.url }}" class="{% if p.url == current_url %}current{% endif %}">
+							{{ p.title }}
+						</a>
+					</li>
+				{% endif %}
+			{% endfor %}
+		</ul>
 	</div>
 </nav>
