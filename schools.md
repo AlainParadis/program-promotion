@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Schools Directory"
-role: notes
+role: nav
+order: 1
 ---
 
 <div class="schools-directory">
@@ -19,7 +20,9 @@ role: notes
 		<article class="school-card" data-school="{{ school.title | downcase }}">
 			<div class="school-card-header">
 				<h3><a href="{{ site.baseurl }}{{ school.url }}">{{ school.title }}</a></h3>
-				<span class="status-badge status-{{ school.status }}">{{ school.status }}</span>
+				<div class="badge-container">
+					<span class="status-badge status-{{ school.status }}">{{ school.status }}</span>
+				</div>
 			</div>
 
 			<div class="school-card-body">
@@ -95,15 +98,18 @@ role: notes
 		padding: 1.5rem;
 		border-bottom: 1px solid #eee;
 		display: flex;
+		flex-direction: column;
 		align-items: flex-start;
-		justify-content: space-between;
-		gap: 1rem;
+		gap: 0.75rem;
 	}
 
 	.school-card-header h3 {
 		margin: 0;
 		font-size: 1.15rem;
-		flex: 1;
+	}
+
+	.badge-container {
+		width: 100%;
 	}
 
 	.school-card-header a {
