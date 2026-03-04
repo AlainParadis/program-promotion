@@ -41,11 +41,6 @@ body
 	margin: 0 auto;
 	padding: 0;
 	overflow-x: hidden;
-	hyphens: auto;
-	hyphenate-limit-chars: 6 3 3;
-	hyphenate-limit-lines: 2;
-	hyphenate-limit-last: always;
-	hyphenate-limit-zone: 8%;
 }
 
 html, body
