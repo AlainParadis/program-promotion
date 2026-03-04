@@ -7,6 +7,11 @@ repository: alainparadis/program-promotion
 plugins:
   - jekyll-feed
 
+collections:
+  schools:
+    output: true
+    permalink: /schools/:name/
+
 exclude:
   - .sass-cache/
   - .jekyll-cache/
