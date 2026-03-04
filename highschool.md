@@ -29,7 +29,7 @@ order: 1
   {% endfor %}
 </ul>
 
-<a href="highschools.html" class="btn-small">Local Arts High Schools&nbsp;➜</a> 
+<a href="schools.html" class="btn-small">Local Arts High Schools&nbsp;➜</a> 
 <h4>
 	<a name="channels">Channels </a> 
 </h4>
