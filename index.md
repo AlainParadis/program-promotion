@@ -14,35 +14,7 @@ order: 0
 	“Turn your creativity into a career.” 
 </blockquote>
 <p>
-	There are a number of highschools that offer a Specialist High Skills Major in Arts and Culture (<a href="https://www.ontario.ca/document/specialist-high-skills-major-policy-and-implementation-guide/arts-and-culture" target="_target">SHSM, Arts and Culture</a>). 
-</p>
-<h4>
-	<a name="messaging">Messaging</a> 
-</h4>
-<p>
-	These are benefits for high school students to attend the Graphic Design program at Algonquin College. These make up the key messaging that needs to be shared broadly. 
-</p>
-<ul>
-	{% for message in site.data.sitewide.messaging %} 
-	<li>{{ message }}</li>
-	{% endfor %} 
-</ul>
-<h4>
-	<a name="channels">Channels </a> 
-</h4>
-<p>
-	Outreach to high schools offers multiple channels both in-person and online. The first high schools to target are those participating in the <a href="https://www.ontario.ca/document/specialist-high-skills-major-policy-and-implementation-guide/arts-and-culture">Specialist High Skills Major, Arts and Culture</a> program. 
-</p>
-<ul>
-	<li><em>Key individuals in high schools</em>: including department heads and arts faculty.</li>
-	<li><em>Social Media Groups</em>: Look for unofficial student Facebook groups, Discord servers, or Reddit threads where students share opportunities.</li>
-	<li><em>Alumni Networks</em>: Reach out to recent grads who made the transition and ask them to share their story with peers.</li>
-</ul>
-<p>
-	We could initiate conversations with high school program heads and explore opportunities through the school board. 
-</p>
-<p>
-	This site contains notes on planning program promotion ideas for the Graphic Design program at Algonquin College. It aims to address falling registration numbers in the short term. It also speaks to concerns related to automation and artificial intelligence in the creative design sector. 
+	There are a number of high schools that offer a <a href="https://www.ontario.ca/document/specialist-high-skills-major-policy-and-implementation-guide/arts-and-culture" target="_target">Specialist High Skills Major in Arts and Culture</a>. 
 </p>
 <blockquote>
 	“The future of design is human-led, AI-enhanced.” 
