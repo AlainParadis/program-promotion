@@ -15,6 +15,6 @@ communications:
     method: "email"
     note: "Initial outreach email sent to Aleksandra Erdelyi, the apparent head of the arts department."
   - date: "2026-03-05"
-    methos: "email"
+    method: "email"
     note: "Aleks Erdelyi responded, inviting for a talk with grade 9 students."
 ---
