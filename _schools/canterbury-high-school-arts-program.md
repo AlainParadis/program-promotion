@@ -1,7 +1,7 @@
 ---
 layout: school
 title: "Canterbury High School"
-status: "not-contacted"
+status: "contacted"
 contact:
   name: "John Unsworth"
   title: "Principal"
@@ -10,5 +10,8 @@ contact:
   email: "john.unsworth@ocdsb.ca"
   phone: "+1 613-731-1191"
   url: "https://canterburyhs.ocdsb.ca/academics-landing/arts-canterbury"
-communications: []
+communications:
+  - date: "2026-03-05"
+    method: "email"
+    note: "Initial outreach email sent to the principal."
 ---

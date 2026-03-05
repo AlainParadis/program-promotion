@@ -1,7 +1,7 @@
 ---
 layout: school
 title: "Notre Dame High School"
-status: "not-contacted"
+status: "contacted"
 contact:
   name:
   title:
@@ -10,5 +10,8 @@ contact:
   email: "NotreDame.High@ocsb.ca"
   phone: "1 613-722-6565"
   url: "https://ndh.ocsb.ca"
-communications: []
+communications:
+  - date: "2026-03-05"
+    method: "email"
+    note: "Initial outreach email sent to the school's general email address."
 ---

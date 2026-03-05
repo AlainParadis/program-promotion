@@ -1,7 +1,7 @@
 ---
 layout: school
 title: "Merivale High School"
-status: "not-contacted"
+status: "contacted"
 contact:
   name: "Jaclyn Canas"
   title: "HSM Lead Coordinator"
@@ -10,5 +10,9 @@ contact:
   email: "jaclyn.canas@ocdsb.ca"
   phone: "+1 613-224-1807"
   url: "https://merivalehs.ocdsb.ca"
-communications: []
+communications:
+  - date: "2026-03-05"
+    method: "email"
+    note: "Initial outreach email sent to Jaclyn Canas."
+
 ---

@@ -1,7 +1,7 @@
 ---
 layout: school
 title: "Sir Wilfrid Laurier Secondary School"
-status: "not-contacted"
+status: "contacted"
 contact:
   name: "Alex Budgell"
   title: "Department Head"
@@ -10,5 +10,11 @@ contact:
   email: "alexander.budgell@ocdsb.ca"
   phone: "+1 613-834-4500"
   url: "https://sirwilfridlaurierss.ocdsb.ca"
-communications: []
+communications:
+  - date: "2026-01-13"
+    method: "email"
+    note: "Initial outreach email sent to Alexander Budgell. He put me in touch with the grade 10 teacher, which is of no use."
+  - date: "2026-03-5"
+    method: "email"
+    note: "Follow-up email asking if I could meet with a grade 12 teacher."
 ---

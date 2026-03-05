@@ -1,7 +1,7 @@
 ---
 layout: school
 title: "Ridgemont High School"
-status: "not-contacted"
+status: "contacted"
 contact:
   name: "Charlotte Granum"
   title:
@@ -10,5 +10,8 @@ contact:
   email: "charlotte.granum@ocdsb.ca"
   phone: "+1 (613)733-4860"
   url: "https://ridgemonths.ocdsb.ca"
-communications: []
+communications:
+  - date: "2026-03-05"
+    method: "email"
+    note: "Initial outreach email sent to Charlotte Granum."
 ---
