@@ -3,9 +3,6 @@ layout: default
 ---
 
 <div class="school-profile">
-	<div class="school-header">
-		<span class="status-badge status-{{ page.status }}">{{ page.status }}</span>
-	</div>
 
 	<div class="school-grid">
 		<section class="school-contact">
@@ -20,53 +17,29 @@ layout: default
 
 			{% if page.contact.address %}
 			<div class="contact-section">
-				<strong>Address:</strong>
 				<p><a href="{{ page.contact.map }}" target="_blank">{{ page.contact.address }}</a></p>
 			</div>
 			{% endif %}
 
 			{% if page.contact.email %}
 			<div class="contact-section">
-				<strong>Email:</strong>
 				<p><a href="mailto:{{ page.contact.email }}">{{ page.contact.email }}</a></p>
 			</div>
 			{% endif %}
 
 			{% if page.contact.phone %}
 			<div class="contact-section">
-				<strong>Phone:</strong>
 				<p><a href="tel:{{ page.contact.phone }}">{{ page.contact.phone }}</a></p>
 			</div>
 			{% endif %}
 
 			{% if page.contact.url %}
 			<div class="contact-section">
-				<strong>Website:</strong>
 				<p><a href="{{ page.contact.url }}" target="_blank" rel="noopener noreferrer">{{ page.contact.url }}</a></p>
 			</div>
 			{% endif %}
 		</section>
 
-		<section class="school-meta">
-			<h3>Status</h3>
-			<p>
-				{% if page.status == "contacted" %}
-					We have initiated contact with this school.
-				{% elsif page.status == "not-contacted" %}
-					Contact has not yet been established.
-				{% else %}
-					{{ page.status }}
-				{% endif %}
-			</p>
-
-			{% if page.communications.size > 0 %}
-			<div class="last-contact-info">
-				<strong>Last Communication:</strong>
-				{% assign last_comm = page.communications | last %}
-				<p>{{ last_comm.date }} via {{ last_comm.method }}</p>
-			</div>
-			{% endif %}
-		</section>
 	</div>
 
 	{% if page.communications.size > 0 %}
@@ -105,16 +78,6 @@ layout: default
 		width: 100%;
 	}
 
-	.school-header {
-		display: flex;
-		align-items: center;
-		justify-content: flex-end;
-		gap: 1rem;
-		margin-bottom: 2rem;
-		padding-bottom: 1.5rem;
-		border-bottom: 1px solid #ddd;
-	}
-
 	.school-grid {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -122,33 +85,25 @@ layout: default
 		margin-bottom: 2rem;
 	}
 
-	.school-contact,
-	.school-meta {
+	.school-contact {
 		background: #f9f9f9;
 		padding: 1.5rem;
 		border-radius: 6px;
 	}
 
-	.school-contact h3,
-	.school-meta h3 {
+	.school-contact h3 {
 		margin-top: 0;
-		margin-bottom: 1.5rem;
+		margin-bottom: 1rem;
 	}
 
 	.contact-person {
-		margin-bottom: 1.5rem;
-		padding-bottom: 1.5rem;
+		margin-bottom: 0.75rem;
+		padding-bottom: 0.75rem;
 		border-bottom: 1px solid #ddd;
 	}
 
 	.contact-section {
-		margin-bottom: 1rem;
-	}
-
-	.contact-section strong {
-		display: block;
-		margin-bottom: 0.25rem;
-		color: #333;
+		margin-bottom: 0.5rem;
 	}
 
 	.contact-section p {
@@ -163,24 +118,6 @@ layout: default
 
 	.contact-section a:hover {
 		text-decoration: underline;
-	}
-
-	.last-contact-info {
-		margin-top: 1rem;
-		padding-top: 1rem;
-		border-top: 1px solid #ddd;
-	}
-
-	.last-contact-info strong {
-		display: block;
-		margin-bottom: 0.5rem;
-		color: #333;
-	}
-
-	.last-contact-info p {
-		margin: 0;
-		color: #666;
-		font-size: 0.95rem;
 	}
 
 	.communications-timeline {
