@@ -76,19 +76,23 @@ The listed benefits contain the messaging that needs to be communicated in the s
 	There's also material that can be used to promote the program such as <em>applicant portfolio pieces</em>, <em>student assignment samples</em>, and <em>alumni industry work</em>. 
 </p>
 <h4>
-	Letter To High School Arts Department Heads 
+	Email To High School Arts Department Heads 
 </h4>
 <p>
 	This is an email message to request a meeting with Arts Department leads at local high schools. 
 </p>
 <pre>
-Subject: Meeting Request
+Subject: Algonquin College Graphic Design Program Classroom Visit
 
-Dear [recipient name],
+Hello,
+
+This message is intended for Arts faculty.
 
 My name is Alain Paradis. I coordinate and teach in the Graphic Design program at Algonquin College. I am reaching out to connect with you as part of our efforts to support students exploring creative post-secondary paths.
 
-I would like to propose a meeting. The agenda would be to discuss a possible classroom visit, where I could share details about our Graphic Design program and answer student questions. Our program develops skills in creative thinking, design methods, and digital tools that we believe are valued by employers.
+I'd like to propose a classroom visit where I could share details about our program, admissions requirements, show student work, and answer student questions. In graphic design, we develop skills in creative thinking, design methods, and digital tools that have proven to be valued by employers in the region.
 
-Please let me know your availability. We can hold this initial meeting virtually, if that's easier for you. I will do my best to fit your schedule. I look forward to meeting and working together to help students consider graphic design as an exciting next step.
+My availabilities are generally Monday, Thursday and Friday mornings, then Tuesday and Wednesday all day.
+
+I'm looking forward to hearing from you.
 </pre>
