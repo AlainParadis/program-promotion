@@ -542,7 +542,8 @@ footer { font-family: var(--sans); }
 	#container
 	{
 		grid-template-columns: 1fr;
-		grid-template-areas: "main";
+		grid-template-rows: auto 1fr;
+		grid-template-areas: "sidebar" "main";
 	}
 	
 	aside.sidebar
