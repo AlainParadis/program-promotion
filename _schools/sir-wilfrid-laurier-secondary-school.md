@@ -17,4 +17,7 @@ communications:
   - date: "2026-03-5"
     method: "email"
     note: "Follow-up email asking if I could meet with a grade 12 teacher."
+  - date: "Mar 6, 2026 at 11:49 AM"
+    method: "email"
+    note: "Alexander Molnar is a grade 10 teacher who's going to ask the various classes who's interested in my visit. They'll get back to me."
 ---
