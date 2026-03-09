@@ -11,8 +11,10 @@ contact:
   phone: "+1 613-224-1807"
   url: "https://merivalehs.ocdsb.ca"
 communications:
-  - date: "2026-03-05"
+  - date: "Mar 5, 2026"
     method: "email"
     note: "Initial outreach email sent to Jaclyn Canas."
-
+  - date: "Mar 9, 2026"
+    method: "email"
+    note: "Jaclyn Canas replied saying she's going to find a time slot before April 30."
 ---
