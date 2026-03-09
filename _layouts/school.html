@@ -55,7 +55,7 @@ layout: default
 						<span class="entry-date">{{ comm.date }}</span>
 						<span class="entry-method method-{{ comm.method }}">{{ comm.method }}</span>
 					</div>
-					<p class="entry-note">{{ comm.note }}</p>
+<div class="entry-note">{{ comm.note | markdownify }}</div>
 				</div>
 			</div>
 			{% endfor %}
