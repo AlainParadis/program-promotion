@@ -14,4 +14,7 @@ communications:
   - date: "March 5, 2026"
     method: "email"
     note: "Initial outreach email sent to the principal, Joe Ross."
+  - date: "Mar 24, 2026 at 1:40 PM"
+    method: "email"
+    note: "Alanna Marcellus at [alanna.marcellus@ocdsb.ca](alanna.marcellus@ocdsb.ca) is the Visual Arts teacher. She wants a whole day in the school to address four groups. I said yes."
 ---
