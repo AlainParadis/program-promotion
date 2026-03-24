@@ -11,7 +11,7 @@ contact:
   phone: "+1 613-745-7176"
   url: "https://gloucesterhs.ocdsb.ca"
 communications:
-  - date: "2026-03-05"
+  - date: "March 5, 2026"
     method: "email"
     note: "Initial outreach email sent to the principal, Joe Ross."
 ---
