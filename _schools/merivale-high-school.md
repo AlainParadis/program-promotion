@@ -17,4 +17,7 @@ communications:
   - date: "Mar 9, 2026"
     method: "email"
     note: "Jaclyn Canas replied saying she's going to find a time slot before April 30."
+  - date: "Mar 24, 2026 at 1:48 PM"
+    method: "email"
+    note: "I suggested meeting the week of April 20th or the week of the 27th."
 ---
