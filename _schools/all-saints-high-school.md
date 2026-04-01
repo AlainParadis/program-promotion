@@ -20,4 +20,7 @@ communications:
   - date: "Mar 5, 2026 at 4:32 PM"
     method: "email"
     note: "This is wonderful. Considering the noon-1pm time-frame, I could visit on a Tuesday or a Wednesday. Could we do March 17th or 18th?"
+  - date: "Apr 1, 2026 at 7:35 PM"
+    method: "email"
+    note: "Sent an email to Carolyn Dyer to offer to visit. Told her my availability and what we'd do during the visit."
 ---
