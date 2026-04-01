@@ -15,7 +15,7 @@ order: 1
 	</div>
 
 	<div class="schools-list">
-		{% assign sorted_schools = site.schools | sort: "title" %}
+		{% assign sorted_schools = site.schools | sort: "last_comm.date" %}
 		{% for school in sorted_schools %}
 		<article class="school-card" data-school="{{ school.title | downcase }}">
 			<div class="school-card-header">
