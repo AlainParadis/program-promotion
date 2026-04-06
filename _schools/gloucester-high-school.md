@@ -17,4 +17,8 @@ communications:
   - date: "Mar 24, 2026 at 1:40 PM"
     method: "email"
     note: "Alanna Marcellus at [alanna.marcellus@ocdsb.ca](alanna.marcellus@ocdsb.ca) is the Visual Arts teacher. She wants a whole day in the school to address four groups. I said yes."
+  - date: "Apr 6, 2026"
+    method: "email"
+    note: "I'm going to visit Gloucester High all day April 8. That'll be 4 classes of grade 11 and 12 students in the Arts program."
+    
 ---
