@@ -11,7 +11,7 @@ order: 0
 	High school students are drawn to Graphic Design because it offers a vibrant outlet for creative expression and a pathway to exciting careers in branding, UX Design, motion graphics, and digital media. The program’s hands-on, studio-based learning environment makes education feel active and engaging, while industry-standard tools and portfolio development prepare students for real-world opportunities. It’s a chance to join a community of like-minded creatives and turn passion into profession. 
 </p>
 <h4>
-	Taglines
+	Taglines 
 </h4>
 <ul>
 	<li>Turn your creativity into a career.</li>
@@ -45,10 +45,7 @@ order: 0
 	Key Messaging 
 </h4>
 <p>
-	Consistent, persuasive and targeted messaging has the power to attract high school grads to our program. 
-</p>
-<p>
-	The listed benefits contain the messaging that needs to be communicated in the specified channels. 
+	Consistent, persuasive and targeted messaging has the power to attract high school grads to our program. The listed benefits contain the messaging that needs to be communicated in the specified channels. 
 </p>
 <ul>
 	{% for message in site.data.sitewide.messaging %} 
