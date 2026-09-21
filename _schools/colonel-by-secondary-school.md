@@ -11,6 +11,9 @@ contact:
   phone: "+1 613-745-9411"
   url: "https://colonelbyss.ocdsb.ca"
 communications:
+  - date: "2026-09-21T10:40:00"
+    method: "email"
+    note: "Emailed Scott Virgo an other initial outreach email."
   - date: "2026-03-05"
     method: "email"
     note: "Initial outreach email sent to the general email address. Not addressed to a specific contact."

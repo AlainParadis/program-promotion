@@ -20,5 +20,7 @@ communications:
   - date: "Apr 6, 2026"
     method: "email"
     note: "I'm going to visit Gloucester High all day April 8. That'll be 4 classes of grade 11 and 12 students in the Arts program."
-    
+  - date: "2026-04-09T12:00:00"
+    method: "in-person"
+    note: "Visited the classroom. Students were not very receptive to attending. Discontinue visiting this school."
 ---
