@@ -7,56 +7,70 @@ order: 1
 
 <div class="schools-directory">
 	<p>
-		These are arts high schools to approach. They all participate in the SHSM Program. This is a preliminary list that can be built upon with time. <a href="https://www.ontario.ca/document/specialist-high-skills-major-policy-and-implementation-guide/arts-and-culture" target="_blank">Read more about the SHSM program here</a>.
+		These are arts high schools to approach. They all participate in the SHSM Program. This is a preliminary list that can be built upon with time. <a href="https://www.ontario.ca/document/specialist-high-skills-major-policy-and-implementation-guide/arts-and-culture" target="_blank">Read more about the SHSM program here</a>. 
 	</p>
-
 	<div class="schools-search">
-		<input type="text" id="schoolFilter" placeholder="Search schools by name..." class="search-input">
+		<input type="text" id="schoolFilter" placeholder="Search schools by name..." class="search-input"> 
 	</div>
-
 	<div class="schools-list">
-		{% assign sorted_schools = site.schools | sort: "title" %}
-		{% for school in sorted_schools %}
+		{% assign sorted_schools = site.schools | sort: "title" %} {% for school in sorted_schools %} 
 		<article class="school-card" data-school="{{ school.title | downcase }}">
 			<div class="school-card-header">
-				<h3><a href="{{ site.baseurl }}{{ school.url }}">{{ school.title }}</a></h3>
+				<h3>
+					<a href="{{ site.baseurl }}{{ school.url }}">{{ school.title }}</a>
+				</h3>
 				<div class="badge-container">
-					<span class="status-badge status-{{ school.status }}">{{ school.status }}</span>
+					<span class="status-badge status-{{ school.status }}">{{ school.status }}</span> 
 				</div>
 			</div>
-
 			<div class="school-card-body">
-				{% if school.contact.name or school.contact.title %}
+				{% if school.contact.name or school.contact.title %} 
 				<div class="contact-info">
-					{% if school.contact.name %}<strong>{{ school.contact.name }}</strong>{% endif %}
-					{% if school.contact.title %}<div class="subtitle">{{ school.contact.title }}</div>{% endif %}
+					{% if school.contact.name %}<strong>{{ school.contact.name }}</strong>{% endif %} {% if school.contact.title %}
+					<div class="subtitle">
+						{{ school.contact.title }}
+					</div>
+					{% endif %} 
 				</div>
-				{% endif %}
-
-				{% if school.contact.email or school.contact.phone %}
+				{% endif %} {% if school.contact.email or school.contact.phone %} 
 				<div class="quick-contact">
-					{% if school.contact.email %}<div class="contact-line"><a href="mailto:{{ school.contact.email }}">{{ school.contact.email }}</a></div>{% endif %}
-					{% if school.contact.phone %}<div class="contact-line"><a href="tel:{{ school.contact.phone }}">{{ school.contact.phone }}</a></div>{% endif %}
+					{% if school.contact.email %}
+					<div class="contact-line">
+						<a href="mailto:{{ school.contact.email }}">{{ school.contact.email }}</a>
+					</div>
+					{% endif %} {% if school.contact.phone %}
+					<div class="contact-line">
+						<a href="tel:{{ school.contact.phone }}">{{ school.contact.phone }}</a>
+					</div>
+					{% endif %} 
 				</div>
 				{% endif %}
-
-				{% if school.communications.size > 0 %}
-				<div class="last-contact">
-					{% assign last_comm = school.communications | last %}
-					<small>Last contact: {{ last_comm.date }} via <strong>{{ last_comm.method }}</strong></small>
-				</div>
-				{% endif %}
+            {% assign sorted_communications = school.communications
+              | sort: "date"
+              | reverse
+            %}
+            
+            {% if sorted_communications.size > 0 %}
+              {% assign last_comm = sorted_communications[0] %}
+            
+              <div class="last-contact">
+                <small>
+                  Last contact:
+                  {{ last_comm.date | date: "%b %d, %Y at %I:%M %p" }}
+                  via <strong>{{ last_comm.method }}</strong>
+                </small>
+              </div>
+            {% endif %}
 			</div>
-
 			<div class="school-card-footer">
-				<a href="{{ site.baseurl }}{{ school.url }}" class="view-button">View Details →</a>
+				<a href="{{ site.baseurl }}{{ school.url }}" class="view-button">View Details →</a> 
 			</div>
 		</article>
-		{% endfor %}
+		{% endfor %} 
 	</div>
 </div>
-
 <style>
+
 	.schools-directory {
 		max-width: 1200px;
 		margin: 0 auto;
@@ -214,8 +228,8 @@ order: 1
 		display: none;
 	}
 </style>
-
 <script>
+
 	document.getElementById('schoolFilter').addEventListener('keyup', function(e) {
 		const searchTerm = e.target.value.toLowerCase();
 		const cards = document.querySelectorAll('.school-card');
