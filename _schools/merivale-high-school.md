@@ -13,7 +13,7 @@ contact:
 communications:
   - date: "2026-09-25T09:33:00"
     method: "email"
-    note: "Confirmed I'll visit Merivale HS on October 8 at 9:30am"
+    note: "Confirmed I'll visit Merivale HS on October 8 at 9:30am. This is Jaclyn's cell: 613-219-0539"
   - date: "2026-09-21T11:00:00"
     method: "email"
     note: "Told her I'm ready when she is—that I can do Mondays, Wednesdays, and Fridays."
