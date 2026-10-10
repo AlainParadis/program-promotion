@@ -3,7 +3,7 @@ layout: school
 title: "Canterbury High School"
 status: "contacted"
 contact:
-  name: "Lynn Glover"
+  name: "Alison Rose"
   title: "Department Head of Visual Arts"
   address: "900 Canterbury Avenue"
   map: "https://maps.apple.com/place?address=900%20Canterbury%20Ave,%20Ottawa%20ON%20K1G%203A7,%20Canada&coordinate=45.388232,-75.626548&name=900%20Canterbury%20Ave&map=explore"
