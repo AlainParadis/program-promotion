@@ -11,6 +11,9 @@ contact:
   phone: "+1 613-224-1807"
   url: "https://merivalehs.ocdsb.ca"
 communications:
+  - date: "2026-10-08T09:00:00"
+    method: "in-person"
+    note: "I visited the school. It went really well. The students were all interested in design. Some were applying to the program already."
   - date: "2026-09-25T09:33:00"
     method: "email"
     note: "Confirmed I'll visit Merivale HS on October 8 at 9:30am. This is Jaclyn's cell: 613-219-0539"
