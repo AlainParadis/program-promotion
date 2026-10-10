@@ -11,6 +11,9 @@ contact:
   phone: "+1 613-731-1191"
   url: "https://canterburyhs.ocdsb.ca/arts-canterbury/visual-arts"
 communications:
+  - date: "2026-10-09T09:00:00"
+    method: "in-person"
+    note: "I visited the school. It went really well. The students were all interested in design. Some were applying to the program already."
   - date: "2026-09-28T10:40:00"
     method: "email"
     note: "Alison Rose responded. She's the visual arts teacher. I'll be visiting Friday, Oct. 9th (9:10-10:30am). She offered that I could set up a table at lunch time to promote the program."
