@@ -11,13 +11,13 @@ contact:
   phone: "+1 613-834-4500"
   url: "https://sirwilfridlaurierss.ocdsb.ca"
 communications:
-  - date: "2026-01-13"
+  - date: "2026-01-13T09:00:00"
     method: "email"
     note: "Initial outreach email sent to Alexander Budgell. He put me in touch with the grade 10 teacher."
-  - date: "2026-03-5"
+  - date: "2026-03-05T09:00:00"
     method: "email"
     note: "Follow-up email asking if I could meet with a grade 12 teacher."
-  - date: "Mar 6, 2026 at 11:49 AM"
+  - date: "2026-03-06T11:50:00"
     method: "email"
     note: "[Alexander Molnar](mailto:alexander.molnar@ocdsb.ca) is a grade 10 teacher who's going to ask the various classes who's interested in my visit. They'll get back to me."
 ---

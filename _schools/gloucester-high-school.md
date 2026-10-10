@@ -11,13 +11,13 @@ contact:
   phone: "+1 613-745-7176"
   url: "https://gloucesterhs.ocdsb.ca"
 communications:
-  - date: "March 5, 2026"
+  - date: “2026-03-05T09:00:00”
     method: "email"
     note: "Initial outreach email sent to the principal, Joe Ross."
-  - date: "Mar 24, 2026"
+  - date: “2026-03-24T09:00:00”
     method: "email"
     note: "Alanna Marcellus at [alanna.marcellus@ocdsb.ca](alanna.marcellus@ocdsb.ca) is the Visual Arts teacher. She wants a whole day in the school to address four groups. I said yes."
-  - date: "Apr 6, 2026"
+  - date: “2026-04-06T09:00:00”
     method: "email"
     note: "I'm going to visit Gloucester High all day April 8. That'll be 4 classes of grade 11 and 12 students in the Arts program."
   - date: "2026-04-09T12:00:00"
