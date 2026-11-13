@@ -17,4 +17,7 @@ communications:
   - date: "2026-03-05"
     method: "email"
     note: "Initial outreach email sent to the general email address. Not addressed to a specific contact."
+  - date: "2026-11-13T14:23:00"
+    method: "email"
+    note: "Never received a response. They have performing arts but not visual arts. <b>Discontinue outreach</b>"
 ---
