@@ -20,4 +20,7 @@ communications:
   - date: "2026-03-06T11:50:00"
     method: "email"
     note: "[Alexander Molnar](mailto:alexander.molnar@ocdsb.ca) is a grade 10 teacher who's going to ask the various classes who's interested in my visit. They'll get back to me."
+  - date: "2026-11-13T14:56:00"
+    method: "email"
+    note: "I emailed Alex Molnar again to see if I could visit their visual arts classes."
 ---

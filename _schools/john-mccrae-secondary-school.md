@@ -14,4 +14,7 @@ communications:
   - date: "2026-09-21T11:00:00"
     method: "email"
     note: "Send initial outreach email."
+  - date: "2026-11-13T14:46:00"
+    method: "email"
+    note: "I emailed Megan Cameron from a web form on the school website. She's listed as the Visual Arts teacher."
 ---

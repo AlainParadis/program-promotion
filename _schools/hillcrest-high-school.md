@@ -17,4 +17,8 @@ communications:
   - date: "2026-03-05"
     method: "email"
     note: "Initial outreach email sent to the main school email address."
+  - date: "2026-11-13T14:41:00"
+    method: "email"
+    note: "I emailed Alexandra Fichera from a web form on the school website. She's listed as the Visual Arts teacher here: https://hillcresths.ocdsb.ca/our-school-landing/staff"
+
 ---

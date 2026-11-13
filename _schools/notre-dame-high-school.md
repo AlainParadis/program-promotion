@@ -14,4 +14,7 @@ communications:
   - date: "2026-03-05"
     method: "email"
     note: "Initial outreach email sent to the school's general email address."
+  - date: "2026-11-13T14:50:00"
+    method: "email"
+    note: "I emailed the guidance counsellor at <a href='mailto:ndh.guidance@ocsb.ca'>ndh.guidance@ocsb.ca</a>."
 ---
