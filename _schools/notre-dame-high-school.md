@@ -17,4 +17,7 @@ communications:
   - date: "2026-11-13T14:50:00"
     method: "email"
     note: "I emailed the guidance counsellor at <a href='mailto:ndh.guidance@ocsb.ca'>ndh.guidance@ocsb.ca</a>."
+  - date: "2026-11-16T13:05:00"
+    method: "email"
+    note: "The guidance counsellor told me they shared my message with all the arts teachers at Notre Dame school."
 ---
