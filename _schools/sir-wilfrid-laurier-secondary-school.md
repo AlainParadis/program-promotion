@@ -23,4 +23,8 @@ communications:
   - date: "2026-11-13T14:56:00"
     method: "email"
     note: "I emailed Alex Molnar again to see if I could visit their visual arts classes."
+  - date: "2026-11-16T13:01:00"
+    method: "email"
+    note: "Alex Molnar responded that he teaches a grade 11/12 arts course."
+
 ---
